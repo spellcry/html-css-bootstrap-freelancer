@@ -9,6 +9,11 @@
 /* ! MOBILE RULES */
 /* -------------------------------------------------------------------------------- */
 
+/* ! Layout */
+.bf-container-small {
+    max-width: 316px;
+}
+
 /* ! Main Header */
 .main-header {
     background-color: var(--bg-dark-grey);
@@ -32,6 +37,30 @@
 /* ! Main Footer  Copy */
 .main-footer__copy {
     background-color: var(--bg-dark-grey);
+}
+
+/* -------------------------------------------------------------------------------- */
+/* ! TABLET */
+/* -------------------------------------------------------------------------------- */
+@media (min-width: 992px) {
+
+    /* ! Layout */
+    .bf-container-small {
+        max-width: 673px;
+    }
+
+}
+
+/* -------------------------------------------------------------------------------- */
+/* ! DESKTOP */
+/* -------------------------------------------------------------------------------- */
+@media (min-width: 1200px) {
+
+    /* ! Layout */
+    .bf-container-small {
+        max-width: 990px;
+    }
+
 }
 
 /* ! Regole di debug */
