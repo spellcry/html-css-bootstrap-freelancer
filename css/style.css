@@ -1,0 +1,75 @@
+/* ! Variables */
+:root {
+    --bg-dark-grey: #2C3E50;
+    --bg-light-grey: #3A546D;
+    --bg-green: #1ABC9C;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* ! MOBILE RULES */
+/* -------------------------------------------------------------------------------- */
+
+/* ! Main Header */
+.main-header {
+    background-color: var(--bg-dark-grey);
+}
+
+/* ! Hero */
+.hero {
+    background-color: var(--bg-green);
+}
+
+/* ! About */
+.about {
+    background-color: var(--bg-green);
+}
+
+/* ! Main Footer Info */
+.main-footer__info {
+    background-color: var(--bg-light-grey);
+}
+
+/* ! Main Footer  Copy */
+.main-footer__copy {
+    background-color: var(--bg-dark-grey);
+}
+
+/* ! Regole di debug */
+.main-header .container-lg {
+    height: 90px;
+    border: 1px solid red;
+}
+
+.hero .container-fluid {
+    height: 588px;
+    border: 1px solid red;
+}
+
+.portfolio .container-lg {
+    border: 1px solid red;
+}
+
+.portfolio .col {
+    height: 260px;
+    border: 1px solid red;
+}
+
+.about .col {
+    height: 493px;
+    border: 1px solid red;
+}
+
+.contact-me .col {
+    height: 684px;
+    border: 1px solid red;
+}
+
+.main-footer__info .col {
+    height: 231px;
+    border: 1px solid red;
+}
+
+.main-footer__copy .container-fluid {
+    height: 110px;
+    border: 1px solid red;
+}
