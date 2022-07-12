@@ -25,6 +25,10 @@
     border-radius: 0.5rem;
 }
 
+.bf-fz-title {
+    font-size: 1.5rem;
+}
+
 /* -------------------------------------------------------------------------------- */
 /* ! MOBILE RULES */
 /* -------------------------------------------------------------------------------- */
@@ -71,11 +75,6 @@
     font-size: 1.125rem;
 }
 
-/* ! Portfolio */
-.portfolio__title {
-    font-size: 1.5rem;
-}
-
 /* ! About */
 .about {
     background-color: var(--bf-green);
@@ -96,14 +95,18 @@
 /* -------------------------------------------------------------------------------- */
 @media (min-width: 992px) {
 
+    /* ! Layout */
+    .bf-container-small {
+        max-width: 673px;
+    }
+
     /* ! Utility */
     .star {
         max-width: 440px;
     }
 
-    /* ! Layout */
-    .bf-container-small {
-        max-width: 673px;
+    .bf-fz-title {
+        font-size: 3rem;
     }
 
     /* ! Navbar */
@@ -124,17 +127,12 @@
         font-size: 1.5625rem;
     }
 
-    /* ! Portfolio */
-    .portfolio__title {
-        font-size: 3rem;
-    }
-
 }
 
 /* -------------------------------------------------------------------------------- */
-/* ! DESKTOP */
+/* ! DESKTOP EXTRA LARGE*/
 /* -------------------------------------------------------------------------------- */
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
 
     /* ! Layout */
     .bf-container-small {
@@ -163,10 +161,10 @@
     border: 1px solid red;
 } */
 
-.about .col {
+/* .about .col {
     height: 493px;
     border: 1px solid red;
-}
+} */
 
 .contact-me .col {
     height: 684px;
