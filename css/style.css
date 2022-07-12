@@ -5,6 +5,21 @@
     --bf-green: #1ABC9C;
 }
 
+/* ! Utility */
+.py-6 {
+    padding-block: 68px;
+}
+
+.star {
+    width: 40%;
+    max-width: 220px;
+}
+
+.star__line {
+    width: 40%;
+    height: 4px;
+    border-radius: 5px;
+}
 
 /* -------------------------------------------------------------------------------- */
 /* ! MOBILE RULES */
@@ -39,6 +54,19 @@
     background-color: var(--bf-green);
 }
 
+.hero .bf-hero-img {
+    max-width: 230px;
+    height: auto;
+}
+
+.hero__title {
+    font-size: 2.25rem;
+}
+
+.hero__subtitle {
+    font-size: 1.125rem;
+}
+
 /* ! About */
 .about {
     background-color: var(--bf-green);
@@ -59,6 +87,11 @@
 /* -------------------------------------------------------------------------------- */
 @media (min-width: 992px) {
 
+    /* ! Utility */
+    .star {
+        max-width: 440px;
+    }
+
     /* ! Layout */
     .bf-container-small {
         max-width: 673px;
@@ -71,6 +104,15 @@
 
     .bf-navbar-nav .nav-link {
         font-size: 1.0625rem;
+    }
+
+    /* ! Hero */
+    .hero__title {
+        font-size: 3.75rem;
+    }
+
+    .hero__subtitle {
+        font-size: 1.5625rem;
     }
 
 }
@@ -93,10 +135,10 @@
     border: 1px solid red;
 } */
 
-.hero .container-fluid {
+/* .hero .container-fluid {
     height: 588px;
     border: 1px solid red;
-}
+} */
 
 .portfolio .container-lg {
     border: 1px solid red;
