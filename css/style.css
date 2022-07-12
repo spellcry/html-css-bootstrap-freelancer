@@ -1,9 +1,10 @@
 /* ! Variables */
 :root {
-    --bg-dark-grey: #2C3E50;
-    --bg-light-grey: #3A546D;
-    --bg-green: #1ABC9C;
+    --bf-dark-grey: #2C3E50;
+    --bf-light-grey: #3A546D;
+    --bf-green: #1ABC9C;
 }
+
 
 /* -------------------------------------------------------------------------------- */
 /* ! MOBILE RULES */
@@ -16,27 +17,41 @@
 
 /* ! Main Header */
 .main-header {
-    background-color: var(--bg-dark-grey);
+    background-color: var(--bf-dark-grey);
+}
+
+/* ! Navbar */
+.bf-navbar-brand {
+    font-size: 1.125rem;
+    font-weight: 800;
+}
+
+.bf-navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link.bf-link-white {
+    color: rgba(255, 255, 255, 1);
 }
 
 /* ! Hero */
 .hero {
-    background-color: var(--bg-green);
+    background-color: var(--bf-green);
 }
 
 /* ! About */
 .about {
-    background-color: var(--bg-green);
+    background-color: var(--bf-green);
 }
 
 /* ! Main Footer Info */
 .main-footer__info {
-    background-color: var(--bg-light-grey);
+    background-color: var(--bf-light-grey);
 }
 
 /* ! Main Footer  Copy */
 .main-footer__copy {
-    background-color: var(--bg-dark-grey);
+    background-color: var(--bf-dark-grey);
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -47,6 +62,15 @@
     /* ! Layout */
     .bf-container-small {
         max-width: 673px;
+    }
+
+    /* ! Navbar */
+    .bf-navbar-brand {
+        font-size: 1.5625rem;
+    }
+
+    .bf-navbar-nav .nav-link {
+        font-size: 1.0625rem;
     }
 
 }
@@ -64,10 +88,10 @@
 }
 
 /* ! Regole di debug */
-.main-header .container-lg {
+/* .main-header .container-lg {
     height: 90px;
     border: 1px solid red;
-}
+} */
 
 .hero .container-fluid {
     height: 588px;
