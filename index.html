@@ -148,27 +148,27 @@
                 </div>
                 <div class="row">
                     <div class="col fs-5">
-                        <form action="" method="post">
+                        <form action="" method="get" class="needs-validation">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item d-flex align-items-baseline">
                                     <label for="name" class="form-label me-2">Name</label>
                                     <input type="text" name="name" class="form-control border-0" id="name"
-                                        placeholder="Name Surname">
+                                        placeholder="Name Surname" required>
                                 </li>
                                 <li class="list-group-item d-flex align-items-baseline">
                                     <label for="email" class="form-label me-2">Email Address</label>
                                     <input type="email" name="email" class="form-control border-0" id="email"
-                                        placeholder="example@example.com">
+                                        placeholder="example@example.com" required>
                                 </li>
                                 <li class="list-group-item d-flex align-items-baseline">
                                     <label for="name" class="form-label me-2">Phone Number</label>
                                     <input type="number" name="name" class="form-control border-0" id="name"
-                                        placeholder="0123456789">
+                                        placeholder="0123456789" required>
                                 </li>
                                 <li class="list-group-item d-flex align-items-baseline border-bottom">
                                     <label for="name" class="form-label me-2">Message</label>
-                                    <textarea class="form-control border-0" name="message" id="message"
-                                        rows="5"></textarea>
+                                    <textarea class="form-control border-0" name="message" id="message" rows="5"
+                                        required></textarea>
                                 </li>
                                 <li class="list-group-item pt-3">
                                     <input type="submit" name="submit" class="btn text-white" value="Send">
