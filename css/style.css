@@ -29,6 +29,10 @@
     font-size: 1.5rem;
 }
 
+.fs-7 {
+    font-size: 1.5625rem;
+}
+
 /* -------------------------------------------------------------------------------- */
 /* ! MOBILE RULES */
 /* -------------------------------------------------------------------------------- */
@@ -95,9 +99,22 @@
     background-color: var(--bf-light-grey);
 }
 
+.main-footer__info a {
+    color: var(--bf-green);
+    text-decoration: none;
+}
+
+.main-footer__info i {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
 /* ! Main Footer  Copy */
 .main-footer__copy {
     background-color: var(--bf-dark-grey);
+    font-size: 0.875rem;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -119,11 +136,6 @@
         font-size: 3rem;
     }
 
-    /* ! Navbar */
-    .bf-navbar-brand {
-        font-size: 1.5625rem;
-    }
-
     .bf-navbar-nav .nav-link {
         font-size: 1.0625rem;
     }
@@ -131,10 +143,6 @@
     /* ! Hero */
     .hero__title {
         font-size: 3.75rem;
-    }
-
-    .hero__subtitle {
-        font-size: 1.5625rem;
     }
 
 }
@@ -181,7 +189,7 @@
     border: 1px solid red;
 } */
 
-.main-footer__info .col {
+/* .main-footer__info .col {
     height: 231px;
     border: 1px solid red;
 }
@@ -189,4 +197,4 @@
 .main-footer__copy .container-fluid {
     height: 110px;
     border: 1px solid red;
-}
+} */
