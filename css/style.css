@@ -21,6 +21,10 @@
     border-radius: 5px;
 }
 
+.rounded-4 {
+    border-radius: 0.5rem;
+}
+
 /* -------------------------------------------------------------------------------- */
 /* ! MOBILE RULES */
 /* -------------------------------------------------------------------------------- */
@@ -65,6 +69,11 @@
 
 .hero__subtitle {
     font-size: 1.125rem;
+}
+
+/* ! Portfolio */
+.portfolio__title {
+    font-size: 1.5rem;
 }
 
 /* ! About */
@@ -115,6 +124,11 @@
         font-size: 1.5625rem;
     }
 
+    /* ! Portfolio */
+    .portfolio__title {
+        font-size: 3rem;
+    }
+
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -140,14 +154,14 @@
     border: 1px solid red;
 } */
 
-.portfolio .container-lg {
+/* .portfolio .container-lg {
     border: 1px solid red;
 }
 
 .portfolio .col {
     height: 260px;
     border: 1px solid red;
-}
+} */
 
 .about .col {
     height: 493px;
