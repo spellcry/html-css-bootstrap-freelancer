@@ -80,6 +80,16 @@
     background-color: var(--bf-green);
 }
 
+/* ! Contact Me */
+.contact-me label {
+    white-space: nowrap;
+}
+
+.contact-me [type="submit"] {
+    background-color: var(--bf-green);
+    font-size: 1.125rem;
+}
+
 /* ! Main Footer Info */
 .main-footer__info {
     background-color: var(--bf-light-grey);
@@ -166,10 +176,10 @@
     border: 1px solid red;
 } */
 
-.contact-me .col {
+/* .contact-me .col {
     height: 684px;
     border: 1px solid red;
-}
+} */
 
 .main-footer__info .col {
     height: 231px;
