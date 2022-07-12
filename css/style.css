@@ -30,7 +30,7 @@
 }
 
 .fs-7 {
-    font-size: 1.5625rem;
+    font-size: 1.125rem;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -48,8 +48,7 @@
 }
 
 /* ! Navbar */
-.bf-navbar-brand {
-    font-size: 1.125rem;
+.main-header .fs-7 {
     font-weight: 800;
 }
 
@@ -138,6 +137,10 @@
 
     .bf-navbar-nav .nav-link {
         font-size: 1.0625rem;
+    }
+
+    .fs-7 {
+        font-size: 1.5625rem;
     }
 
     /* ! Hero */
